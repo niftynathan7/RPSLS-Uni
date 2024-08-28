@@ -1,9 +1,3 @@
-// TO DO:
-// Print results of individual rounds at the end of the game...
-// Extension 1
-// Extension 2
-// LinkedIn Tasks
-
 #include <stdio.h>
 #include <cs50.h>
 #include <stdlib.h>
@@ -33,7 +27,7 @@ int main(){
 		testcode();
 	}
 	else{
-		printf("Invalid input, please try again! \n");
+		printf("Invalid input, please try again! \n\n");
 		main();
 	}
 }
